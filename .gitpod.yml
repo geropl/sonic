@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.dockerfile
+tasks:
+  - init: cargo build
+    command: cargo test
+  - command: cargo watch -x check
